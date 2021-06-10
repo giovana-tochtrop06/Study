@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+}
+
+label {
+  display: block;
+  font-family: sans-serif;
+  color: white;
+}
+
+input {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 300px;
+  padding: 6px;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+}
+
+.container {
+  margin: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 600;
+  color: rgb(32, 32, 32);
+  border-radius: 1px ;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  padding: 10px;
+  color: white;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form {
+  background-color: #ff3162;
+  padding: 20px 45px 45px 40px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #ff3162;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.space {
+  margin: 20px
+}
